@@ -6353,7 +6353,6 @@ function config_Html(token = "test", proxyhost = "") {
                 <div class="section-header">
                     <span>📋</span>
                     <span>订阅链接</span>
-                    <button class="advanced-settings-btn" onclick="openAdvancedSettings()">⚙️ 自定义订阅设置</button>
                 </div>
                 <div class="section-content">
                     <div class="subscription-grid" id="subscriptionLinks"></div>
@@ -7187,4 +7186,5 @@ function config_Html(token = "test", proxyhost = "") {
 </html>`;
 
     return html;
+
 }
